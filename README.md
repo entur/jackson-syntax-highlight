@@ -1,4 +1,4 @@
-![Build Status](https://github.com/skjolber/jackson-syntax-highlight/actions/workflows/maven.yml/badge.svg) 
+![Build Status](https://github.com/entur/jackson-syntax-highlight/actions/workflows/maven.yml/badge.svg) 
 [![Maven Central](https://img.shields.io/maven-central/v/org.entur.jackson/jackson-syntax-highlight.svg)](https://mvnrepository.com/artifact/org.entur.jackson/jackson-syntax-highlight)
 
 # jackson-syntax-highlight
