@@ -49,8 +49,6 @@
 		<jackson.version>2.18.0</jackson.version>
 		<junit.version>4.13.2</junit.version>
 		<maven.jacoco.plugin.version>0.8.12</maven.jacoco.plugin.version>
-
-		<owasp-dependency-check.version>9.0.10</owasp-dependency-check.version>
 	</properties>
 
 	<dependencies>
