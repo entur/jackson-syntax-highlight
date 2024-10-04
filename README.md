@@ -1,5 +1,5 @@
 ![Build Status](https://github.com/skjolber/jackson-syntax-highlight/actions/workflows/maven.yml/badge.svg) 
-[![Maven Central](https://img.shields.io/maven-central/v/com.github.skjolber.jackson/jackson-syntax-highlight.svg)](https://mvnrepository.com/artifact/com.github.skjolber.jackson/jackson-syntax-highlight)
+[![Maven Central](https://img.shields.io/maven-central/v/org.entur.jackson/jackson-syntax-highlight.svg)](https://mvnrepository.com/artifact/org.entur.jackson/jackson-syntax-highlight)
 
 # jackson-syntax-highlight
 Simple utility for generating syntax-highlighted [JSON] text using the [Jackson](https://github.com/FasterXML/jackson) library. Inlines [ANSI] color-codes visible in ANSI-enabled consoles.
@@ -31,14 +31,14 @@ The project is built with [Maven] and is available on the central Maven reposito
 
 Add the property
 ```xml
-<jackson-syntax-highlight.version>1.0.8</jackson-syntax-highlight.version>
+<jackson-syntax-highlight.version>1.1.0</jackson-syntax-highlight.version>
 ```
 
 then add
 
 ```xml
 <dependency>
-    <groupId>com.github.skjolber.jackson</groupId>
+    <groupId>org.entur.jackson</groupId>
     <artifactId>jackson-syntax-highlight</artifactId>
     <version>${jackson-syntax-highlight.version}</version>
 </dependency>
@@ -54,14 +54,14 @@ For
 
 ```groovy
 ext {
-  jacksonSyntaxHighlightVersion = '1.0.8'
+  jacksonSyntaxHighlightVersion = '1.1.0'
 }
 ```
 
 add
 
 ```groovy
-api ("com.github.skjolber.jackson:jackson-syntax-highlight:${jacksonSyntaxHighlightVersion}")
+api ("org.entur.jackson:jackson-syntax-highlight:${jacksonSyntaxHighlightVersion}")
 ```
 </details>
 
@@ -93,7 +93,7 @@ SyntaxHighlighter highlighter = DefaultSyntaxHighlighter
 JsonGenerator jsonGenerator = new SyntaxHighlightingJsonGenerator(delegate, highlighter);
 ```
 
-In addition, the JSON structure can be tracked via [JsonStreamContextListener](src/main/java/com/github/skjolber/jackson/jsh/JsonStreamContextListener.java), for stateful coloring of subtrees. 
+In addition, the JSON structure can be tracked via [JsonStreamContextListener](src/main/java/org/entur/jackson/jsh/JsonStreamContextListener.java), for stateful coloring of subtrees. 
 
 ## Highlighting an object
 Write a full object using `writeObject`, i.e.
@@ -109,20 +109,14 @@ jsonGenerator.writeObject(obj);
 
 # History
 
- - 1.0.8: Add module info. 
- - 1.0.7: Do not set default colors.
- - 1.0.6: Add option for single-line output
- - 1.0.3 to 1.0.5: Bump Jackson dependency due to security issue 
- - 1.0.2: More tests, minor fixes.
- - 1.0.1: Various improvements, works better with [logback-logstash-syntax-highlighting-decorators] for Logback logging.
- - 1.0.0: Initial version
+ - 1.1.0: Forked from [jackson-syntax-highlight](https://github.com/skjolber/jackson-syntax-highlight) due to too few maintainers.
 
 [Apache 2.0]:          	http://www.apache.org/licenses/LICENSE-2.0.html
-[issue-tracker]:       	https://github.com/skjolber/jackson-syntax-highlight/issues
+[issue-tracker]:       	https://github.com/entur/jackson-syntax-highlight/issues
 [Maven]:                http://maven.apache.org/
-[SyntaxHighlighter]:	src/main/java/com/github/skjolber/jackson/jsh/SyntaxHighlighter.java
+[SyntaxHighlighter]:	src/main/java/org/entur/jackson/jsh/SyntaxHighlighter.java
 [Jackson]:				https://github.com/FasterXML/jackson
 [ANSI]:					https://en.wikipedia.org/wiki/ANSI_escape_code
 [JSON]:					https://no.wikipedia.org/wiki/JSON
 [JsonGenerator]:		https://github.com/FasterXML/jackson-core/blob/master/src/main/java/com/fasterxml/jackson/core/JsonGenerator.java
-[logback-logstash-syntax-highlighting-decorators]: https://github.com/skjolber/logback-logstash-syntax-highlighting-decorators
+[logback-logstash-syntax-highlighting-decorators]: https://github.com/entur/logback-logstash-syntax-highlighting-decorators

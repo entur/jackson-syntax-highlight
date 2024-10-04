@@ -1,4 +1,4 @@
-package com.github.skjolber.jackson.jsh;
+package org.entur.jackson.jsh;
 
 public final class AnsiSyntaxHighlight {
 

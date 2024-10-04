@@ -1,4 +1,4 @@
-package com.github.skjolber.jsh;
+package org.entur.jackson.jsh;
 
 import java.io.IOException;
 import java.io.StringWriter;
@@ -8,9 +8,6 @@ import java.math.BigInteger;
 import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.github.skjolber.jackson.jsh.JsonStreamContextListener;
-import com.github.skjolber.jackson.jsh.SyntaxHighlighter;
-import com.github.skjolber.jackson.jsh.SyntaxHighlightingJsonGenerator;
 
 public abstract class AbstractHighlighterTest {
 

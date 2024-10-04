@@ -1,4 +1,4 @@
-package com.github.skjolber.jsh;
+package org.entur.jackson.jsh;
 
 /**
  * Test object for object serialization via jackson databind.

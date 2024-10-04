@@ -1,12 +1,8 @@
-package com.github.skjolber.jsh;
+package org.entur.jackson.jsh;
 
 import java.io.IOException;
 
 import org.junit.Test;
-
-import com.github.skjolber.jackson.jsh.AnsiSyntaxHighlight;
-import com.github.skjolber.jackson.jsh.DefaultSyntaxHighlighter;
-import com.github.skjolber.jackson.jsh.SyntaxHighlighter;
 
 public class SyntaxHighlighterTest extends AbstractHighlighterTest {
 

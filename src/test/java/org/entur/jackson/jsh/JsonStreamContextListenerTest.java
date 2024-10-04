@@ -1,4 +1,4 @@
-package com.github.skjolber.jsh;
+package org.entur.jackson.jsh;
 
 import java.io.IOException;
 

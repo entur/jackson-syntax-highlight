@@ -1,10 +1,10 @@
-package com.github.skjolber.jsh;
+package org.entur.jackson.jsh;
 
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import com.github.skjolber.jackson.jsh.AnsiSyntaxHighlight;
+import org.entur.jackson.jsh.AnsiSyntaxHighlight;
 
 public class AnsiSyntaxHighlightTest {
 

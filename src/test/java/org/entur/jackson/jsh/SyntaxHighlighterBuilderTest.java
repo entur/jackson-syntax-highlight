@@ -1,11 +1,11 @@
-package com.github.skjolber.jsh;
+package org.entur.jackson.jsh;
 
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.github.skjolber.jackson.jsh.AnsiSyntaxHighlight;
-import com.github.skjolber.jackson.jsh.DefaultSyntaxHighlighter;
-import com.github.skjolber.jackson.jsh.SyntaxHighlighter;
+import org.entur.jackson.jsh.AnsiSyntaxHighlight;
+import org.entur.jackson.jsh.DefaultSyntaxHighlighter;
+import org.entur.jackson.jsh.SyntaxHighlighter;
 
 public class SyntaxHighlighterBuilderTest {
 
