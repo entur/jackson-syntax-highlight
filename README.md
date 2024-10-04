@@ -31,7 +31,7 @@ The project is built with [Maven] and is available on the central Maven reposito
 
 Add the property
 ```xml
-<jackson-syntax-highlight.version>1.1.0</jackson-syntax-highlight.version>
+<jackson-syntax-highlight.version>1.1.x</jackson-syntax-highlight.version>
 ```
 
 then add
@@ -54,7 +54,7 @@ For
 
 ```groovy
 ext {
-  jacksonSyntaxHighlightVersion = '1.1.0'
+  jacksonSyntaxHighlightVersion = '1.1.x'
 }
 ```
 
