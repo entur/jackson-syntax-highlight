@@ -1,6 +1,9 @@
 ![Build Status](https://github.com/entur/jackson-syntax-highlight/actions/workflows/maven.yml/badge.svg) 
 [![Maven Central](https://img.shields.io/maven-central/v/org.entur.jackson/jackson-syntax-highlight.svg)](https://mvnrepository.com/artifact/org.entur.jackson/jackson-syntax-highlight)
 
+# Pleasea note
+This branch is for Jackson version 2, version 1.x of this library.
+
 # jackson-syntax-highlight
 Simple utility for generating syntax-highlighted [JSON] text using the [Jackson](https://github.com/FasterXML/jackson) library. Inlines [ANSI] color-codes visible in ANSI-enabled consoles.
 
