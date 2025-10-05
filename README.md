@@ -1,7 +1,7 @@
 ![Build Status](https://github.com/entur/jackson-syntax-highlight/actions/workflows/maven.yml/badge.svg) 
 [![Maven Central](https://img.shields.io/maven-central/v/org.entur.jackson/jackson-syntax-highlight.svg)](https://mvnrepository.com/artifact/org.entur.jackson/jackson-syntax-highlight)
 
-# Pleasea note
+# Please note: Legacy branch
 This branch is for Jackson version 2, version 1.x of this library.
 
 # jackson-syntax-highlight
