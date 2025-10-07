@@ -20,7 +20,7 @@ Features:
 
 The library is primarily intended for adding coloring while doing minimal changes to existing applications. For example, coloring of status codes during unit testing.
 
-For Jackson `2.x` support, see the `jackson2.x` branch. Note that the `jackson2.x` branch is on another coordinate and package, so both version can be used in the same app.
+For Jackson `2.x` support, see the `jackson2.x` branch. Note that the `jackson2.x` branch is on another coordinate and package, so both versions can be used in parallel.
 
 ## License
 [Apache 2.0]
@@ -100,7 +100,7 @@ jsonGenerator.close();
 // print writer contents.
 ```
 
-In addition, the JSON structure can be tracked via [JsonStreamContextListener](src/main/java/org/entur/jackson3/jsh/JsonStreamContextListener.java), for stateful coloring of subtrees. 
+In addition, the JSON structure can be tracked via [TokenStreamContextListener](src/main/java/org/entur/jackson3/jsh/TokenStreamContextListener.java), for stateful coloring of subtrees.
 
 ## Highlighting an object
 Write a full object using `writeObject`, i.e.
