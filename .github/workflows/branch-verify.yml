@@ -8,5 +8,8 @@ on:
 jobs:
   validate-maven-build:
     uses: entur/abt-gha-public/.github/workflows/maven-open-source-verify.yml@main
+    permissions:
+      contents: read
     with:
-      java-version: 21
+      java-version: 25
+    # no secrets necessary
