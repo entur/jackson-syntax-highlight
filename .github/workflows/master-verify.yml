@@ -5,7 +5,7 @@ on:
       - master
 jobs:
   validate-maven-build:
-    uses: entur/abt-gha-public/.github/workflows/maven-open-source-verify.yml@main
+    uses: entur/abt-gha-public/.github/workflows/maven-open-source-verify.yml@v2
     permissions:
       contents: read
     with:
